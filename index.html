@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aires Nacionales II</h1>
+        </header>
+
+        <div class="player-container">
+            <div class="album-art">
+                <img id="currentAlbumArt" src="images/album1.jpg" alt="Portada del álbum">
+            </div>
+
+            <div class="player-controls">
+                <h2 id="currentSongTitle">Canción 1</h2>
+                <h3 id="currentArtist">Artista</h3>
+
+                <audio id="audioPlayer"></audio>
+
+                <div class="progress-container">
+                    <span id="currentTime">0:00</span>
+                    <label for="progressBar" class="sr-only">Barra de progreso</label>
+                    <input type="range" id="progressBar" value="0">
+                    <span id="duration">0:00</span>
+                </div>
+
+                <div class="controls">
+                    <button id="prevBtn" aria-label="Anterior" title="Anterior"><i class="fas fa-step-backward"></i></button>
+                    <button id="playBtn" aria-label="Reproducir/Pausar" title="Reproducir/Pausar"><i class="fas fa-play"></i></button>
+                    <button id="nextBtn" aria-label="Siguiente" title="Siguiente"><i class="fas fa-step-forward"></i></button>
+                    <button id="volumeBtn" aria-label="Volumen" title="Volumen"><i class="fas fa-volume-up"></i></button>
+                    <label for="volumeControl" class="sr-only">Control de volumen</label>
+                    <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.7">
+                </div>
+            </div>
+        </div>
+
+        <div class="playlist">
+            <h2>Lista de Canciones</h2>
+            <ul id="songList">
+                <!-- Las canciones se agregarán dinámicamente con JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
