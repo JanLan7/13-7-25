@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Gota de Luz",
             artist: "José Villamayor",
             cover: "images/album1.jpg",
-            file: "audio/gota_de_luz.mp3",
+            file: "audio/Gota_de_luz.mp3",
             duration: "05:09"
         },
         {
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Arasunu",
             artist: "José Villamayor",
             cover: "images/album1.jpg",
-            file: "audio/arasunu.mp3",
+            file: "audio/Arasunu.mp3",
             duration: "05:53"
         },
         {
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Canción para los sobrevivientes",
             artist: "José Villamayor",
             cover: "images/album1.jpg",
-            file: "audio/cancion_para_los_sobrevivientes.mp3",
+            file: "audio/Cancion_para_los_sobrevivientes.mp3",
             duration: "06:03"
         },
         {
