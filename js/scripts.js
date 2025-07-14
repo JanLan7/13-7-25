@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
             duration: "05:23"
         },
         {
-            title: "Ñanduti",
+            title: "Nanduti",
             artist: "José Villamayor",
             cover: "images/album1.jpg",
-            file: "audio/ñanduti.mp3",
+            file: "audio/nanduti.mp3",
             duration: "05:14"
         },
         {
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Pya'e",
             artist: "José Villamayor",
             cover: "images/album1.jpg",
-            file: "audio/pya'e.mp3",
+            file: "audio/pyae.mp3",
             duration: "04:01"
         },
         {
