@@ -9,13 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
             duration: "05:09"
         },
         {
-            title: "Una hoja al viento",
-            artist: "José Villamayor",
-            cover: "images/album1.jpg",
-            file: "audio/Una_hoja_al_viento.mp3",
-            duration: "04:58"
-        },
-        {
             title: "La fiesta de la vida",
             artist: "José Villamayor",
             cover: "images/album1.jpg",
@@ -28,6 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
             cover: "images/album1.jpg",
             file: "audio/lo_que_falto_decir.mp3",
             duration: "05:23"
+        },
+        {
+            title: "Una hoja al viento",
+            artist: "José Villamayor",
+            cover: "images/album1.jpg",
+            file: "audio/Una_hoja_al_viento.mp3",
+            duration: "04:58"
         },
         {
             title: "Nanduti",
